@@ -1,0 +1,23 @@
+{
+  "name": "axit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PavelBaranouski/AXIT.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PavelBaranouski/AXIT/issues"
+  },
+  "homepage": "https://github.com/PavelBaranouski/AXIT#readme",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}
