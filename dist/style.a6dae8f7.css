@@ -47,7 +47,7 @@ input {
 }
 
 header {
-  width: 100vw;
+  width: 100%;
   background-color: #000000;
 }
 header .header__wrapper {
@@ -95,6 +95,58 @@ nav li:active {
 }
 nav a:hover, nav :active {
   text-transform: uppercase;
+}
+
+.intro {
+  min-height: 100vh;
+  background-image: url(/image__intro.544655c6.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.intro__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12%;
+}
+
+.intro__information--card {
+  display: flex;
+  flex-direction: column;
+}
+.intro__information--card .intro__logo {
+  width: 270px;
+  height: 100px;
+  margin-bottom: 50px;
+}
+.intro__information--card h1 {
+  width: 670px;
+  height: 168px;
+  margin-bottom: 55px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+.intro__information--card .separator {
+  width: 170px;
+  margin-bottom: 42px;
+  border: 1px solid #FFFFFF;
+}
+.intro__information--card .intro__subtittle {
+  width: 270px;
+  height: 42px;
+  margin-bottom: 42px;
+  color: #FFFFFF;
+}
+.intro__information--card .btn__download {
+  width: 270px;
+  height: 58px;
 }
 
 body {

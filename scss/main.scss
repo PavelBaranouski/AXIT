@@ -1,0 +1,55 @@
+.intro{
+    min-height: 100vh;
+    background-image: url(../img/image__intro.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; 
+}
+.intro__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12%;
+}
+.intro__information--card{
+    display: flex;
+    flex-direction: column;
+    .intro__logo{
+        width: 270px;
+        height: 100px;
+        margin-bottom: 50px;
+    }
+    h1{
+        width: 670px;
+        height: 168px;
+        margin-bottom: 55px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 56px;
+        
+        color: $tcolor-white;
+    }
+    .separator{
+        width: 170px;
+        margin-bottom: 42px;
+        border: 1px solid $tcolor-white;
+
+    }
+    .intro__subtittle{
+        width: 270px;
+        height: 42px;
+        margin-bottom: 42px;
+        color: $tcolor-white;
+
+    }
+    .btn__download{
+        width: 270px;
+        height: 58px;
+    }
+}
+
+    
