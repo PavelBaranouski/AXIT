@@ -1,0 +1,18 @@
+//reset
+@import "reset.scss";
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500;700&display=swap');
+//variable
+@import "variable.scss";
+//header
+@import "header.scss";
+
+//setting body
+body{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: $tcolor-black;
+}
