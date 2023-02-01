@@ -235,33 +235,28 @@ nav a:hover, nav :active {
 }
 .btn__get-start .btn__input:active {
   background-color: #EC7979;
-  box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 0px 10px #AB4949;
 }
 
 .social__media {
   width: 100%;
-  max-height: 140px;
-  height: 140px;
   background-color: #F8EFEF;
 }
 
 .social__media-main {
   display: flex;
   background-color: #F8EFEF;
-  max-width: 1510px;
 }
 
 .social__media-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 140px;
   max-height: 140px;
-  min-width: 470px;
   max-width: 470px;
+  min-width: 470px;
 }
 .social__media-info .social__media-tittle {
-  max-width: 470px;
   margin-bottom: 18px;
   font-family: "Open Sans";
   font-style: normal;
@@ -289,6 +284,80 @@ nav a:hover, nav :active {
 }
 .social__media-icon .social__media-link {
   margin-left: 30px;
+}
+
+.nav-item {
+  width: 200px;
+}
+
+.tab__box {
+  display: flex;
+  margin-left: 100px;
+}
+
+.tabs {
+  margin-top: 100px;
+  width: 1170px;
+  height: 540px;
+}
+
+.tab__info {
+  width: 570px;
+  height: 540px;
+  margin-right: 50px;
+}
+.tab__info .tab__tittle {
+  margin-bottom: 27px;
+  height: 124px;
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+}
+.tab__info .tab__subtittle-first {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.tab__info .tab__subtittle-second {
+  margin-bottom: 30px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.btn__tab {
+  width: 270px;
+  height: 58px;
+  border: none;
+  background-color: #EC7979;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.btn__tab:hover {
+  background-color: #AB4949;
+}
+
+.btn__tab:active {
+  background: #EC7979;
+  box-shadow: inset 0px 0px 10px #AB4949;
 }
 
 body {
