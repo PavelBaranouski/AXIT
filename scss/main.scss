@@ -16,6 +16,7 @@
     max-width: 670px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px;
     .intro__logo{
         margin-bottom: 50px;
     }
@@ -417,7 +418,6 @@
 // Section awesome End
 
 //Section prace Start
-
 .prace{
     margin-top:100px;
     height: 100%;
@@ -548,4 +548,278 @@
    
     
 }
+.prace__cards{
+    padding-bottom: 5%;
+}
 //Section prace End
+
+// Section rewiews Start
+.reviews__messages{
+    margin-top:83px;
+    display: flex;
+    justify-content: space-between;
+
+    .reviews__message{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .message__cloud{
+        position: relative;
+        
+        height: 180px;
+        background: #E2E2E2;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+    
+        span{
+            width: 370px;
+            
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            padding: 20px;
+
+            color: $tcolor-light_grey;
+        }
+    }
+
+
+    .polygon{
+        position: absolute;
+        left: 19%;
+        top: 100%;
+
+        border: 20px solid transparent; 
+    
+        border-bottom: 20px solid  $bcolor-light_grey;
+
+        transform: rotate(-180deg);
+    }
+
+    .reviews__person{
+        margin-top: 66px;
+        display: flex;
+
+    }
+
+    .person__info{
+        margin-left:30px;
+
+        .name__person{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        margin-bottom: 15px;
+        }
+
+        .post__person{
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+        }
+    }
+}
+// Section rewiews Start
+
+// Section stylish Start
+
+.stylish{
+    margin-top:65px;
+    max-height: 445px;
+    background-image: url(../img/night__city.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.stylish__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1170px;
+
+
+    h1{
+        margin-top: 50px;
+        width: 100%;
+       height: 150px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        text-transform: uppercase;
+
+        color: $tcolor-white;
+    }
+
+    div{
+        width: 170px;
+        border: 1px solid $tcolor-white;
+    }
+
+    h3{
+        margin-top:40px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: $tcolor-white;
+    }
+
+    form{
+        max-width: 370px;
+        margin-top:75px;
+        button{
+            margin-bottom: 50px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+            
+            text-align: center;
+            text-transform: capitalize;
+
+            width: 370px;
+            height: 58px;
+            border: 2px solid #FFFFFF;
+            background-color: transparent;
+            color: #FFFFFF;
+        }
+    }
+
+    .stylish__btn:hover{
+        border: 2px solid $bcolor-light_orange;
+        color: $tcolor-light_orange;
+    }
+    .stylish__btn:active{
+        background-color: $bcolor-orange_button_active;
+        color: $tcolor-white;
+        border: none;
+    }
+}
+
+//Section stylish End
+
+//Section contact Start
+.contact__input{
+    margin-top:90px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact__input-card{
+    background-color: $bcolor-white;
+    max-width: 570px;
+    max-height: 450px;
+    width: 100%;
+    border-radius: 10px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.contact__input-box{
+    max-width: 571px;
+    max-height: 300px;
+    width: 100%;
+
+    .form__item{
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    .form__item:last-child{
+        margin-bottom: 51.4%;
+    }
+    input{
+        width: 100%;
+        border: none;
+        margin-bottom: 0.5%;
+    }
+   
+
+    .line__input{
+        border: 1px solid #BDBDBD;
+    }
+}
+
+.contact__message-box{
+    max-width: 571px;
+    width: 100%;
+    max-height: 300px;
+}
+.message__item{
+    max-width: 571px;
+    width: 100%;
+    height: 300px;
+
+    textarea{
+    border: none; 
+    padding: 10px; 
+    width: 100%; 
+    height: 66%; 
+    font-size: 14px; 
+    resize: none;
+    }
+
+}
+.contact__line-message{
+    width: 100%;
+    max-width: 571px;
+    border: 1px solid #BDBDBD;
+}
+
+.contact__btn-form{
+    
+    max-width: 370px;
+    max-height: 58px;
+
+    .contact__btn{
+        left: 109%;
+        width: 370px;
+        height: 58px;
+        background: #EC7979;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        
+        text-align: center;
+        text-transform: capitalize;
+
+        color: #FFFFFF;
+
+        margin: 0px 395px 40px;
+    }
+
+    .contact__btn:hover{
+        background-color: $bcolor-orange_button_active;
+    }
+    .contact__btn:active{
+        background-color: $bcolor-light_orange;
+        box-shadow: inset 0px 0px 10px $bcolor-orange_button_active;
+    }
+}
+//Section contact End
