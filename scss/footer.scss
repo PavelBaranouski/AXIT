@@ -1,0 +1,38 @@
+footer{
+    margin-top: 50px;
+    max-width: 1510px;
+    width: 100%;
+    max-height: 164px;
+    height: 164px;
+    background-color: $bcolor-black;
+
+    .footer__card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .footer__icon{
+            margin:35px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        img{
+            margin-left:3.5%;
+        }
+        h5{
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            // display: flex;
+            // align-items: center;
+            // text-align: center;
+
+            color: rgba(255, 255, 255, 0.5);
+        }
+    }
+}
